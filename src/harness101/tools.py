@@ -6,7 +6,7 @@ from harness101.model.anthropic.tool import InputSchema, Property, Tool, Type
 from harness101.model.message import ToolResult
 
 
-from harness101.logger import get_logger
+from harness101.infra.logger import get_logger
 
 logger = get_logger(__name__)
 

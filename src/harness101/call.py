@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from rich.console import Console
 from rich.markdown import Markdown
 
-from harness101.logger import get_logger
+from harness101.infra.logger import get_logger
 
 logger = get_logger(__name__)
 

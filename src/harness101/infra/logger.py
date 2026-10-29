@@ -8,7 +8,7 @@ from rich.logging import RichHandler
 from rich.panel import Panel
 from rich.tree import Tree
 
-from harness101.settings import settings
+from harness101.infra.settings import settings
 
 PACKAGE = "harness101"
 

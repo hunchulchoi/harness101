@@ -5,7 +5,7 @@ from pathlib import Path
 
 from harness101.model.anthropic.message import Message, Role
 from harness101.model.anthropic.response import ToolUseBlock, Usage
-from harness101.store import ConversationStore
+from harness101.infra.store import ConversationStore
 
 
 class ConversationStoreTest(unittest.TestCase):

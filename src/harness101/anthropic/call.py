@@ -6,12 +6,12 @@ import uuid
 from rich.markdown import Markdown
 from rich.panel import Panel
 
-from harness101.logger import get_logger
+from harness101.infra.logger import get_logger
 
 from harness101.model.anthropic.message import Message, Role
 from harness101.model.anthropic.response import Response, TextBlock
 from harness101.model.tool import Tool
-from harness101.settings import settings
+from harness101.infra.settings import settings
 
 logger = get_logger(__name__)
 

@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
 
-from harness101.settings import settings
+from harness101.infra.settings import settings
 from harness101.model.anthropic.message import Message, Role
 
 SCHEMA = """

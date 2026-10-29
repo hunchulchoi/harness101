@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from pydantic import Field, SecretStr, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 ENV_FILE = ROOT / ".env"
 load_dotenv(ENV_FILE)
 

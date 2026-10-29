@@ -28,9 +28,7 @@ src/harness101/
   anthropic/call.py      # Messages API
   chat_in_the_loop_v3.py # 에이전트 루프
   tools.py               # 도구 실행
-  store.py               # SQLite 대화 기록
-  logger.py              # rich 로그
-  settings.py
+  infra/                 # settings, logger, store
   model/
 tests/
 ```
